@@ -14,9 +14,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
 		padding: 0 20px;
-		height: 8vh;
 		background-color: darkorange;
 	}
 
@@ -30,6 +28,7 @@
 		flex-direction: row;
 		align-items: center;
 	}
+
 
 	header ul{
 		display: flex;
@@ -48,12 +47,32 @@
 		text-decoration: none;
 	}
 
-/* HAUT DE PAGE */
+/* EQUIPE */
 
-	#haut_de_page{
-		height: 92vh;
-		background-image: url("Images/Sans-titre1-Récupéré.gif");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	h1{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+	}
+
+	.equipe{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		margin:10px;
+	}
+
+	.equipe img{
+		max-width:300px;
+	}
+
+	.text_equipier{
+		display:flex;
+		flex-direction:column;
+	}
+
+	.nom_equipier{
+		font-weight:bold;
+		font-size:1.8em;
+		color:darkorange;
 	}
