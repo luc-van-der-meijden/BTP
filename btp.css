@@ -1,0 +1,59 @@
+/* GENERALE */
+
+	html{
+		margin: 0;
+	}
+
+	body{
+		margin: 0;
+	}
+
+/* HEADER */
+
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+		height: 8vh;
+		background-color: darkorange;
+	}
+
+	#logo{
+		height: 50px;
+		padding: 10px;
+	}
+
+	header nav{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	header ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		list-style-type: none;
+	}
+
+	header li{
+		padding: 0 20px;
+	}
+
+	header li a{
+		font-size: 15px;
+		color: #000000;
+		text-decoration: none;
+	}
+
+/* HAUT DE PAGE */
+
+	#haut_de_page{
+		height: 92vh;
+		background-image: url("Images/Sans-titre1-Récupéré.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
