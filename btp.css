@@ -8,15 +8,15 @@
 		margin: 0;
 	}
 
-@font-face{
-	font-family: Parade;
-	src: url("Polices/parade.ttf");
-}
+	@font-face{
+		font-family: Parade;
+		src: url("Polices/parade.ttf");
+	}
 
-@font-face{
-	font-family: GeosansLight;
-	src: url("Polices/GeosansLight.ttf");
-}
+	@font-face{
+		font-family: GeosansLight;
+		src: url("Polices/GeosansLight.ttf");
+	}
 
 /* HEADER */
 
@@ -138,7 +138,7 @@
 		margin: 15px 0;
 		background-color: rgba(0, 0, 0, 0);
 		font-size: 18px;
-		color: #FFFFFF;
+		color: #000000;
 		font-family: GeosansLight;
 	}
 
@@ -158,3 +158,45 @@
 		box-sizing: content-box;
 		cursor: pointer;
 	}
+
+/* PRESENTATION */
+
+		#presentation{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			background-color: #000000;
+			width: 100vw;
+			height: 92vh;
+			overflow: scroll;
+		}
+
+		#block{
+			padding: 3vw 0;
+		}
+
+		.block_1{
+			width: 50vw;
+			background-color: #FFFFFF;
+			text-align: center;
+			padding: 3vw;
+			margin: 0;
+			font-family: GeosansLight;
+		}
+
+		.block_1 h1{
+			font-size: 30px;
+			padding-bottom: 3vw;
+			margin: 0;
+		}
+
+		.block_1 p{
+			font-size: 20px;
+			margin: 0;
+		}
+
+		.photo{
+			width: 56vw;
+			margin: 0;
+			vertical-align: middle;
+		}
