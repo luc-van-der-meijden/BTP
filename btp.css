@@ -172,6 +172,117 @@
 			vertical-align: middle;
 		}
 
+/* EQUIPE */
+
+	#equipe{
+		font-family: GeosansLight;
+		background-color: #e78200;
+		padding: 20px;
+		color: #FFFFFF;
+	}
+
+	.titre_equipe{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		font-size:2.5em;
+	}
+
+	.equipe_gauche{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		margin-right:auto;
+		width:80%;
+	}
+
+	.equipe_droite{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		width:80%;
+		margin-left:auto;
+	}
+
+	.equipe_droite img{
+		max-width:290px;
+		margin:30px;
+		border-radius: 50%;
+	}
+
+	.equipe_gauche img{
+		max-width:290px;
+		margin:30px;
+		border-radius: 50%;
+	}
+	.text_equipier{
+		display:flex;
+		flex-direction:column;
+		text-justify: auto;
+		font-size:1.2em;
+		flex-grow:1;
+		color: #FFFFFF;
+	}
+
+	.nom_equipier{
+		font-weight:bold;
+		font-size:1.4em;
+		color: #000000;
+	}
+
+/* REALISATIONS */
+
+	#realisation{
+		font-family: GeosansLight;
+		background-color: #e78200;
+		padding: 20px;
+		color: #FFFFFF;
+	}
+
+	.realisations-1{
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		justify-content:space-evenly;
+		align-items:center;
+		font-family: GeosansLight;
+	}
+
+	.realisations-1 img {
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		min-height:0;
+		min-width:0;
+		max-height:450px;
+		max-width:610px;
+		margin:20px;
+		filter: grayscale(80%);
+		transition: transform .2s;
+	}
+
+	#realisation2{
+		flex-grow:3;
+	}
+
+	#realisation3{
+		flex-grow:2;
+	}
+
+	#realisation4{
+		flex-grow:3;
+	}
+
+	#realisation5{
+		flex-grow:3;
+	}
+
+	.realisations-1 img:hover {
+		transform: scale(1.1); 
+		filter:none;
+	}
+
+
 /* CONTACT */
 
 	#contact{
